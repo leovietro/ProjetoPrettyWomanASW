@@ -19,9 +19,9 @@ Leonardo de Vietro - CP3020223
 
 ## • 📝 Descrição do projeto
 Sistema desenvolvido com o objetivo de fornecer um sistema gerenciador para gerentes
-e vendedores de roupas femininas. O projeto foi desenvolvido seguindo o padrão MVC com
-o factory para criação de objetos e o strategy para encapsular os algoritmos ou mudança de estados
-visualização realizada em JavaFX e banco de dados baseado em MySQL.
+e vendedores de roupas femininas. O projeto foi desenvolvido seguindo o padrão MVC contendo
+a criação de objetos e alteração dos mesmos nos bancos de dados baseado em MySQL com
+visualização realizada em JavaFX.
 
  </section>
 
