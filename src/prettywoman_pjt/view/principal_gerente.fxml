@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="411.0" maxWidth="549.0" minHeight="411.0" minWidth="511.0" prefHeight="411.0" prefWidth="511.0" style="-fx-background-color: 0000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prettywoman_pjt.controller.Principal_gerenteController">
+   <children>
+      <ImageView fitHeight="126.0" fitWidth="156.0" layoutX="206.0" layoutY="117.0" onDragDetected="#gerenciar_produtos" onMouseClicked="#gerenciar_produtos" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/gerencia_prods_image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="126.0" fitWidth="157.0" layoutX="18.0" layoutY="117.0" onDragDetected="#gerenciar_vendedores" onMouseClicked="#gerenciar_vendedores" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/gerencia_vendedor_image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="141.0" fitWidth="144.0" layoutX="353.0" layoutY="110.0" onDragDetected="#relatorios" onMouseClicked="#relatorios" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/relatorios_image.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="28.0" layoutY="235.0" text="Gerenciar Vendedores">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="405.0" layoutY="235.0" text="Relatórios">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="222.0" layoutY="235.0" text="Gerenciar Produtos">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="41.0" fitWidth="57.0" layoutX="444.0" layoutY="34.0" onMouseClicked="#sair" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/sair.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

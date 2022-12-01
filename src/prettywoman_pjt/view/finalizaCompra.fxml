@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="411.0" prefWidth="549.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="prettywoman_pjt.controller.FinalizaCompraController">
+   <children>
+      <Label layoutX="52.0" layoutY="69.0" prefHeight="30.0" prefWidth="48.0" text="CPF:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="field_cpf" layoutX="110.0" layoutY="72.0" prefHeight="25.0" prefWidth="348.0" />
+      <Label layoutX="46.0" layoutY="117.0" prefHeight="30.0" prefWidth="48.0" text="Nome:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="field_nome" layoutX="110.0" layoutY="120.0" prefHeight="25.0" prefWidth="348.0" />
+      <Label layoutX="41.0" layoutY="163.0" prefHeight="30.0" prefWidth="72.0" text="Desconto:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="field_desconto" layoutX="110.0" layoutY="166.0" prefHeight="25.0" prefWidth="114.0" />
+      <TextField fx:id="field_total" layoutX="110.0" layoutY="211.0" prefHeight="25.0" prefWidth="114.0" />
+      <Label layoutX="39.0" layoutY="208.0" prefHeight="30.0" prefWidth="72.0" text="Total:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="260.0" prefHeight="30.0" prefWidth="145.0" text="Forma de Pagamento:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="186.0" layoutY="267.0" mnemonicParsing="false" text="Débito" />
+      <RadioButton layoutX="284.0" layoutY="267.0" mnemonicParsing="false" text="Crédito" />
+      <RadioButton layoutX="386.0" layoutY="267.0" mnemonicParsing="false" text="Pix" />
+      <Button fx:id="btn_continuar" layoutX="286.0" layoutY="338.0" mnemonicParsing="false" onAction="#finalizarVenda" prefHeight="30.0" prefWidth="145.0" style="-fx-background-color: #7ED957; -fx-background-radius: 10px;" text="Finalizar">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.5114504098892212" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_cancelar" layoutX="118.0" layoutY="338.0" mnemonicParsing="false" onAction="#cancelar" prefHeight="30.0" prefWidth="145.0" style="-fx-background-color: #FF5757; -fx-background-radius: 10px;" text="Cancelar">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.5114504098892212" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

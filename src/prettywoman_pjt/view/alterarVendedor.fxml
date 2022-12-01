@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="411.0" prefWidth="549.0" style="-fx-background-color: 00000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prettywoman_pjt.controller.AlterarVendedorController">
+   <children>
+      <Label layoutX="89.0" layoutY="113.0" text="Nome:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="88.0" layoutY="172.0" text="Acesso:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="field_acesso" editable="false" layoutX="142.0" layoutY="169.0" prefHeight="25.0" prefWidth="316.0" />
+      <TextField fx:id="field_nome" layoutX="140.0" layoutY="110.0" prefHeight="25.0" prefWidth="316.0" />
+      <Button fx:id="btn_alterar" layoutX="287.0" layoutY="300.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="130.0" style="-fx-background-color: #7ED957;" text="Alterar">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text layoutX="177.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alterar Dados">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Text>
+      <Separator layoutX="134.0" layoutY="71.0" prefHeight="11.0" prefWidth="285.0" style="-fx-cursor: #DA70D6;" />
+      <TextField fx:id="field_senha" layoutX="163.0" layoutY="226.0" prefHeight="25.0" prefWidth="295.0" />
+      <Label layoutX="81.0" layoutY="229.0" text="Nova senha:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_cancelar" layoutX="136.0" layoutY="300.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="130.0" style="-fx-background-color: #FF5757;" text="Cancelar">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

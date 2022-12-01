@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="411.0" prefWidth="549.0" style="-fx-background-color: 0000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prettywoman_pjt.controller.RegistraVendaController">
+   <children>
+      <Label layoutX="184.0" layoutY="31.0" text="Registrar Venda" textFill="#df1ad8">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="111.0" text="Codigo Produto: " />
+      <TextField fx:id="field_codProd" layoutX="126.0" layoutY="107.0" prefHeight="25.0" prefWidth="149.0" />
+      <Label layoutX="293.0" layoutY="111.0" text="Quantidade:" />
+      <TextField fx:id="field_qtd" layoutX="365.0" layoutY="107.0" prefHeight="25.0" prefWidth="115.0" />
+      <TableView fx:id="table_venda" layoutX="29.0" layoutY="153.0" prefHeight="200.0" prefWidth="491.0">
+        <columns>
+          <TableColumn fx:id="column_cod" prefWidth="88.0" text="Cod" />
+          <TableColumn fx:id="column_prod" prefWidth="78.0" text="Produto" />
+            <TableColumn fx:id="column_qtd" minWidth="3.0" prefWidth="106.0" text="Quantidade" />
+            <TableColumn fx:id="column_valorU" prefWidth="84.0" text="Valor U" />
+            <TableColumn fx:id="column_valorT" prefWidth="134.0" text="Valor Total" />
+        </columns>
+      </TableView>
+      <ImageView fx:id="btn_add" fitHeight="35.0" fitWidth="37.0" layoutX="493.0" layoutY="100.0" onMouseClicked="#adicionar" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/add_img.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_cancelar" layoutX="112.0" layoutY="367.0" mnemonicParsing="false" onAction="#cancelar" prefHeight="30.0" prefWidth="145.0" style="-fx-background-color: #FF5757; -fx-background-radius: 10px;" text="Cancelar">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.5114504098892212" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_continuar" layoutX="280.0" layoutY="367.0" mnemonicParsing="false" onAction="#continuar" prefHeight="30.0" prefWidth="145.0" style="-fx-background-color: #7ED957; -fx-background-radius: 10px;" text="Continuar">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.5114504098892212" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

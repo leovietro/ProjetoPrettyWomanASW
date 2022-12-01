@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="411.0" prefWidth="549.0" style="-fx-background-color: 0000;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="prettywoman_pjt.controller.CadastraClienteController">
+   <children>
+      <Label layoutX="163.0" layoutY="43.0" prefHeight="38.0" prefWidth="223.0" text="Cadastro de Cliente" textFill="#df1ad8">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="123.0" text="CPF:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="177.0" text="Nome:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="227.0" text="Email:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="279.0" text="Telefone:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="field_CPF" layoutX="137.0" layoutY="121.0" prefHeight="25.0" prefWidth="334.0" />
+      <TextField fx:id="field_nome" layoutX="137.0" layoutY="175.0" prefHeight="25.0" prefWidth="334.0" />
+      <TextField fx:id="field_email" layoutX="137.0" layoutY="224.0" prefHeight="25.0" prefWidth="334.0" />
+      <TextField fx:id="field_telefone" layoutX="140.0" layoutY="277.0" prefHeight="25.0" prefWidth="334.0" />
+      <Button fx:id="btn_adicionarCliente" layoutX="287.0" layoutY="334.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: #7ED957; -fx-background-radius: 10px;" text="Cadastrar">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.5114504098892212" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_cancelar" layoutX="137.0" layoutY="334.0" mnemonicParsing="false" onAction="#cancelar" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: #FF5757; -fx-background-radius: 10px;" text="Cancelar">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.5114504098892212" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Separator layoutX="147.0" layoutY="80.0" prefHeight="3.0" prefWidth="261.0" />
+   </children>
+</AnchorPane>
